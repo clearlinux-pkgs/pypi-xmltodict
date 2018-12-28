@@ -4,7 +4,7 @@
 #
 Name     : xmltodict
 Version  : 0.11.0
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/57/17/a6acddc5f5993ea6eaf792b2e6c3be55e3e11f3b85206c818572585f61e1/xmltodict-0.11.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/57/17/a6acddc5f5993ea6eaf792b2e6c3be55e3e11f3b85206c818572585f61e1/xmltodict-0.11.0.tar.gz
 Summary  : Makes working with XML feel like you are working with JSON
