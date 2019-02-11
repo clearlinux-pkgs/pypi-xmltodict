@@ -1,5 +1,5 @@
 PKG_NAME := xmltodict
-URL = https://files.pythonhosted.org/packages/57/17/a6acddc5f5993ea6eaf792b2e6c3be55e3e11f3b85206c818572585f61e1/xmltodict-0.11.0.tar.gz
+URL = https://files.pythonhosted.org/packages/58/40/0d783e14112e064127063fbf5d1fe1351723e5dfe9d6daad346a305f6c49/xmltodict-0.12.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
