@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-xmltodict
-Version  : 0.14.1
-Release  : 41
-URL      : https://files.pythonhosted.org/packages/98/f7/d29b8cdc9d8d075673be0f800013c1161e2fd4234546a140855a1bcc9eb4/xmltodict-0.14.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/98/f7/d29b8cdc9d8d075673be0f800013c1161e2fd4234546a140855a1bcc9eb4/xmltodict-0.14.1.tar.gz
+Version  : 0.14.2
+Release  : 42
+URL      : https://files.pythonhosted.org/packages/50/05/51dcca9a9bf5e1bce52582683ce50980bcadbc4fa5143b9f2b19ab99958f/xmltodict-0.14.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/50/05/51dcca9a9bf5e1bce52582683ce50980bcadbc4fa5143b9f2b19ab99958f/xmltodict-0.14.2.tar.gz
 Summary  : Makes working with XML feel like you are working with JSON
 Group    : Development/Tools
 License  : MIT
@@ -53,10 +53,10 @@ python3 components for the pypi-xmltodict package.
 
 
 %prep
-%setup -q -n xmltodict-0.14.1
-cd %{_builddir}/xmltodict-0.14.1
+%setup -q -n xmltodict-0.14.2
+cd %{_builddir}/xmltodict-0.14.2
 pushd ..
-cp -a xmltodict-0.14.1 buildavx2
+cp -a xmltodict-0.14.2 buildavx2
 popd
 
 %build
@@ -64,7 +64,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1728571698
+export SOURCE_DATE_EPOCH=1729088492
 export GCC_IGNORE_WERROR=1
 CLEAR_INTERMEDIATE_CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 CLEAR_INTERMEDIATE_FCFLAGS="$CLEAR_INTERMEDIATE_FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
