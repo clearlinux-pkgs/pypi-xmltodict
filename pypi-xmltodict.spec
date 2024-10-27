@@ -7,7 +7,7 @@
 #
 Name     : pypi-xmltodict
 Version  : 0.14.2
-Release  : 42
+Release  : 43
 URL      : https://files.pythonhosted.org/packages/50/05/51dcca9a9bf5e1bce52582683ce50980bcadbc4fa5143b9f2b19ab99958f/xmltodict-0.14.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/50/05/51dcca9a9bf5e1bce52582683ce50980bcadbc4fa5143b9f2b19ab99958f/xmltodict-0.14.2.tar.gz
 Summary  : Makes working with XML feel like you are working with JSON
